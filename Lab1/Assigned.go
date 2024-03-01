@@ -6,14 +6,6 @@ import (
 	"strings"
 )
 
-/*
-Wyświetl zawartość żądanej przez użytkownika
-linii z pliku `dane.txt`.
-Numer linii podany jest w linku jako parametr `lineNumber`.
-Linie numerowane są od 0.
-
-*/
-
 func main() {
 	showLines([]int{1, 2, 3})
 }
